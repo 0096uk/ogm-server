@@ -1,4 +1,4 @@
-ci/cd for ogm-backend server
+ci/cd for ogm-backend server sunbeam-march-2022-batch
 
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
