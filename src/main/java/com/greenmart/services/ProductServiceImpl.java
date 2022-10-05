@@ -97,7 +97,7 @@ public class ProductServiceImpl implements ProductService {
 		if (product == null) {
 			System.out.println( "Inside 1") ;
 			product = ProductDTO.toEntity(productDto);
-			String fileName = storageService.store(productImage);
+			String fileName = storageService.azstore(productImage);
 			product.setCreatedAt(new Date());
 			product.setModifiedAt(new Date());
 			product.setThumbnail(fileName);
